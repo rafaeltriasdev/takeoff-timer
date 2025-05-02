@@ -21,7 +21,7 @@ const updateCountdown = () => {
         setTimeout(() => {
             startButton.classList.remove("hidden");
             time.textContent = "60 sec";
-        }, 16000)
+        }, 2000)
     }
 };
 
